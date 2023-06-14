@@ -1,0 +1,104 @@
+* {
+  /* border-radius: 0 !important; */
+  font-size: 40px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#calculator {
+  display: grid;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 16rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  font-family: Lato, sans-serif;
+}
+
+#title {
+  padding-left: 1rem;
+  background-color: #466fb4;
+  color: #E5E7EB;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  border-bottom-width: 1px;
+  cursor: default;
+  grid-column: span 4 / span 4;
+  font-family: Lato, sans-serif;
+  border-radius: 20px 20px 0 0;
+}
+
+#log-screen {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  background-color: #9CA3AF;
+  color: white;
+  text-align: right;
+  grid-column: span 4 / span 4;
+  font-family: Lato, sans-serif;
+}
+
+#display {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  background-color: #9CA3AF;
+  color: white;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-align: right;
+  grid-column: span 4 / span 4;
+  font-family: Lato, sans-serif;
+  word-wrap: break-word;
+}
+
+#clear {
+  background-color: #6B7280;
+  grid-column: span 2 / span 2;
+  font-family: Lato, sans-serif;
+  color: white;
+}
+
+#del {
+  background-color: #6B7280;
+  grid-column: span 1 / span 1;
+  font-family: Lato, sans-serif;
+  color: white;
+}
+
+#divide, #multiply, #subtract, #add {
+  background-color: #111827;
+  font-family: Lato, sans-serif;
+  color: white;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+  background-color: #374151;
+  font-family: Lato, sans-serif;
+  color: white;
+}
+
+#decimal {
+  background-color: #374151;
+  font-family: Lato, sans-serif;
+  color: white;
+  border-radius: 0 0 0 20px;
+}
+
+#equals {
+  background-color: #EF4444; 
+  grid-column: span 2 / span 2; 
+  color: white;
+  border-radius: 0 0 20px 0;
+}
+
+.big-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
